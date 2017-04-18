@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Browsing Tracker",
+  "version": "0.0.1",
+  "description": "Track and log browsing activity using chrome-track-activity",
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ]
+}
