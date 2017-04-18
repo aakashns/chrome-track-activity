@@ -1,4 +1,4 @@
-function startTracking(onSessionStart, onSessionEnd) {
+function startTrackingActivity(onSessionStart, onSessionEnd) {
   var session = { tabId: -1 };
 
   function endSession() {

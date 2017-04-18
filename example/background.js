@@ -10,4 +10,4 @@ function onSessionStart(session) {
 function onSessionEnd(session) {
   console.log("END", formatTime(session.endTime), session.url);
 }
-var stopTracking = startTracking(onSessionStart, onSessionEnd);
+var stopTracking = startTrackingActivity(onSessionStart, onSessionEnd);
