@@ -5,7 +5,9 @@ Utility function to track browsing activity in a Chrome extension.
 
 ## Usage
 
-This package exports a single function `startTrackingActivity` which can be used to track a user's browsing activity. The following example demonstates its usage:
+This package exports a single function `startTrackingActivity` which can be used to track a user's browsing activity. 
+
+The following example demonstates its usage:
 
 ```javascript
 function onSessionStart(session) {
@@ -83,6 +85,8 @@ Then, visit chrome://extensions and inspect the background page:
 
 <img src="http://oi65.tinypic.com/33ygm07.jpg" /> 
 
-Open the 'Console' tab, leave the inspector window, and continue using the browser normally. You should see a log of the browsing activity as you enter and leave pages (similar to the screenshot at the start of this README).
+Open the 'Console' tab, leave the inspector window, and continue using the browser normally. You should see a log of the browsing activity as you enter and leave pages, like this:
+
+<img src="http://oi63.tinypic.com/k49enb.jpg" />
 
 The logic for the extension lives is [background.js](https://github.com/aakashns/chrome-track-activity/blob/master/example/background.js).
