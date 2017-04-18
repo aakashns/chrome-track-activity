@@ -28,7 +28,7 @@ The return value of `startTrackingActivity` is another function, which can calle
 
 ## Installation
 
-**IMPORTANT NOTE**: To use `startTrackingAcvitity`, you need to declare the ("tabs")[https://developer.chrome.com/extensions/tabs#manifest] permission in your extension's [manifest](https://developer.chrome.com/extensions/manifest) file.
+**IMPORTANT NOTE**: To use `startTrackingAcvitity`, you need to declare the ["tabs"](https://developer.chrome.com/extensions/tabs#manifest) permission in your extension's [manifest](https://developer.chrome.com/extensions/manifest) file.
 
 ### Method 1: Copy-paste
 
@@ -71,7 +71,15 @@ var startTrackingActivity = require('chrome-track-activity');
 
 The `example` directory contains and example extension which uses `startTrackingActivity` to log the browsing activity of the user. 
 
-Follow the instructions on [this page](https://developer.chrome.com/extensions/getstarted#unpacked) to load the extension into your browser. Then visit chrome://extensions and inspect the background page:
+First, clone the repository:
+
+```
+git clone https://github.com/aakashns/chrome-track-activity.git
+```
+
+Then, follow the instructions on [this page](https://developer.chrome.com/extensions/getstarted#unpacked) to load the extension into your browser. 
+
+Then, visit chrome://extensions and inspect the background page:
 
 <img src="http://oi65.tinypic.com/33ygm07.jpg" /> 
 
