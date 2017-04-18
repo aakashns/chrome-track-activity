@@ -5,7 +5,7 @@ Utility function to track browsing activity in a Chrome extension.
 
 ## Usage
 
-This package exports a single function `startTrackingActivity` which can be used to track a user's browsing activity. 
+This package exports a single function `startTrackingActivity` which can be used to track a user's browsing activity. The following example demonstates its usage:
 
 ```javascript
 function onSessionStart(session) {
